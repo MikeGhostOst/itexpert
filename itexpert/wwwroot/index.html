@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Table</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <div id="codevaluepairs-container"></div>
+    <div id="send-container">
+        <label for="file-input" id="file-label">Choose file</label>
+        <input type="file" id="file-input" accept=".json" onchange="onFileChange()" />
+        <button id="send-btn" onclick="sendFile()">Send</button>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
